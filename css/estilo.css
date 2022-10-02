@@ -23,11 +23,12 @@
 }
 
 .menu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: end;
     list-style-type: none;
     margin: 0%;
     padding: 0%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .menu li{
@@ -141,7 +142,7 @@ button{
     flex-wrap: wrap;
 }
 .hawaii{
-    width: 50%;
+    width: 200px;
     flex: 1;
 }
 .hawaii img{
@@ -196,6 +197,8 @@ u{
     color: #2a2b2b;
 }
 footer{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
     text-align: center;
     padding: 50px;
     background-color: #1D4358;
